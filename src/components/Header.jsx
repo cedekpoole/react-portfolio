@@ -6,11 +6,11 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 function Header () {
     return (
-        <Navbar id="mainNavbar" expand="lg" className="navbar-dark pb-1 fixed-top">
-          <Navbar.Brand>CAMERON EDEK POOLE</Navbar.Brand>
+        <Navbar id="mainNavbar" expand="lg" className="navbar-dark pb-1 fixed-top mb-5">
+          <Navbar.Brand className="mx-3">CAMERON EDEK POOLE</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav className="me-auto m-1">
               <LinkContainer to="/">
                 <Nav.Link>HOME</Nav.Link>
               </LinkContainer>
