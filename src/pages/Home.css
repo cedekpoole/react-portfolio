@@ -1,0 +1,6 @@
+.portfolio-image {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--light-color);
+    box-shadow: 0 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.5);
+  }

@@ -1,3 +1,16 @@
+:root {
+    --brand-color: #c14953;
+    --light-color: #faf9f6;
+    --dark-color: #353b3c;
+    --bg-color: #e8d6cb;
+}
+
 * {
     font-family: "Space Mono", sans-serif
+}
+
+#root {
+    padding-top: 70px;
+    background-color: #faf9f6;
+    min-height: 100vh; 
 }
