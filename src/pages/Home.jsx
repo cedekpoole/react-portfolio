@@ -6,13 +6,22 @@ import Me from '../images/profile-picture.jpg'
 
 const Home = () => {
     return (
-    <div className="d-flex flex-column min-vh-100">
+    <div>
+        <div className="background"></div>
+        <div className="background-2"></div>
         <Header />
-        <Container>
+        <Container className="position-relative">
             <Row className="mt-5">
-                <Col xs={12} md={6}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis aut odio repellat? Repellat consequatur eaque quisquam cum error labore quam excepturi molestias, aperiam quasi deleniti voluptatem nihil recusandae facere animi.</Col>
+                <Col xs={12} md={6} className="mt-4">
+                    <h1>Welcome to my <span className="color-change">portfolio</span></h1>
+                <Row> </Row>
+                {/* <div className="typewriter">
+                    Sit back, and relax. An aspiring Full-Stack Dev
+                    </div> */}
+        
+                </Col>
                 <Col xs={12} md={6}>
-                    <img src={Me} alt="Me, driving a boat on a lake" className="portfolio-image"/>
+                    {/* <img src={Me} alt="Me, driving a boat on a lake" className="portfolio-image"/> */}
                 </Col>
             </Row>
         </Container>
