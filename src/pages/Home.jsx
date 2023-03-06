@@ -14,7 +14,7 @@ const Home = () => {
             <Row className="mt-5">
                 <Col xs={12} md={6} className="mt-4">
                     <h1>Welcome to my <span className="color-change">portfolio</span></h1>
-                <Row> </Row>
+                
                 {/* <div className="typewriter">
                     Sit back, and relax. An aspiring Full-Stack Dev
                     </div> */}
