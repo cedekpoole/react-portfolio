@@ -2,73 +2,55 @@
     {
         "id": 1,
         "title": "Favourite Music Dashboard",
-        "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
+        "link": ["https://cedekpoole.github.io/favourite-music-dashboard/", "https://github.com/cedekpoole/favourite-music-dashboard"],
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/lyric-screenshot.png?raw=true",
         "alt": "Lyrics modal of favourite music dashboard app",
         "text": "A music app that allows users to effortlessly look up lyrics"
     },
 
     {
         "id": 2,
-        "title": "Favourite Music Dashboard",
-        "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
-        "alt": "Lyrics modal of favourite music dashboard app",
-        "text": "A music app that allows users to effortlessly look up lyrics"
+        "title": "Weather Forecast App",
+        "link": ["https://cedekpoole.github.io/weather-dashboard/", "https://github.com/cedekpoole/weather-dashboard"],
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/weather-app.png?raw=true",
+        "alt": "A weather dashboard",
+        "text": "An app that displays current and forecasted weather dynamically via data from a server-side API"
     },
 
     {
         "id": 3,
-        "title": "Favourite Music Dashboard",
-        "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
-        "alt": "Lyrics modal of favourite music dashboard app",
-        "text": "A music app that allows users to effortlessly look up lyrics"
+        "title": "README.md Generator",
+        "link": ["https://www.youtube.com/watch?v=AzjbbK4kNIY&ab_channel=Camikazoo", "https://github.com/cedekpoole/readme-generator"],
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/readme-gen.jpg?raw=true",
+        "alt": "Code displayed on a computer screen",
+        "text": "Generates README.md files from the command line (node.js and npm)"
     },
 
     {
         "id": 4,
-        "title": "Favourite Music Dashboard",
-        "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
-        "alt": "Lyrics modal of favourite music dashboard app",
-        "text": "A music app that allows users to effortlessly look up lyrics"
+        "title": "Day Planner App",
+        "link": ["https://cedekpoole.github.io/daily-planner-app/", "https://github.com/cedekpoole/daily-planner-app"],
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/day-planner.png?raw=true",
+        "alt": "A daily planner application",
+        "text": "Work day schedular created using jQuery and moment.js"
     },
 
     {
         "id": 5,
-        "title": "Favourite Music Dashboard",
-        "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
-        "alt": "Lyrics modal of favourite music dashboard app",
-        "text": "A music app that allows users to effortlessly look up lyrics"
+        "title": "Password Generator",
+        "link": ["https://cedekpoole.github.io/random-password-generator/", "https://github.com/cedekpoole/random-password-generator"],
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/password-gen.jpg?raw=true",
+        "alt": "A random password generator app",
+        "text": "Generate a random password (HTML, CSS and Vanilla JS)"
     },
 
     {
         "id": 6,
-        "title": "Favourite Music Dashboard",
-        "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
-        "alt": "Lyrics modal of favourite music dashboard app",
-        "text": "A music app that allows users to effortlessly look up lyrics"
-    },
-
-    {
-        "id": 7,
-        "title": "Favourite Music Dashboard",
-        "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
-        "alt": "Lyrics modal of favourite music dashboard app",
-        "text": "A music app that allows users to effortlessly look up lyrics"
-    },
-
-    {
-        "id": 8,
-        "title": "Favourite Music Dashboard",
-        "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
-        "alt": "Lyrics modal of favourite music dashboard app",
-        "text": "A music app that allows users to effortlessly look up lyrics"
+        "title": "Project Cat",
+        "link": ["https://en.wikipedia.org/wiki/Cat", "https://en.wikipedia.org/wiki/Cat"  ],
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/cat.jpg?raw=true",
+        "alt": "Picture of a cat with a toilet roll on their head",
+        "text": "This is also a very important project"
     }
 
 ]
