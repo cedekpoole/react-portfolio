@@ -10,7 +10,7 @@
 }
 
 #root {
-    padding-top: 70px;
+    padding: 70px 0 70px 0;
     background-color: #faf9f6;
     min-height: 100vh; 
     color: var(--light-color);
