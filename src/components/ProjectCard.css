@@ -1,0 +1,28 @@
+a {
+  color: var(--light-color) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--brand-color) !important;
+}
+
+.proj-img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.text-small {
+  font-size: 0.8rem;
+}
+
+.project-link {
+  box-shadow: 0 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--dark-color) !important;
+  background-color: var(--dark-color) !important;
+}
+
+.project-link:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
