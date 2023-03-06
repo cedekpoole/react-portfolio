@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Favourite Music Dashboard",
         "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "../images/profile-picture.jpg",
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
         "alt": "Lyrics modal of favourite music dashboard app",
         "text": "A music app that allows users to effortlessly look up lyrics"
     },
@@ -12,7 +12,7 @@
         "id": 2,
         "title": "Favourite Music Dashboard",
         "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "../images/profile-picture.jpg",
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
         "alt": "Lyrics modal of favourite music dashboard app",
         "text": "A music app that allows users to effortlessly look up lyrics"
     },
@@ -21,7 +21,7 @@
         "id": 3,
         "title": "Favourite Music Dashboard",
         "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "../images/profile-picture.jpg",
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
         "alt": "Lyrics modal of favourite music dashboard app",
         "text": "A music app that allows users to effortlessly look up lyrics"
     },
@@ -30,7 +30,7 @@
         "id": 4,
         "title": "Favourite Music Dashboard",
         "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "../images/profile-picture.jpg",
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
         "alt": "Lyrics modal of favourite music dashboard app",
         "text": "A music app that allows users to effortlessly look up lyrics"
     },
@@ -39,7 +39,7 @@
         "id": 5,
         "title": "Favourite Music Dashboard",
         "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "../images/profile-picture.jpg",
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
         "alt": "Lyrics modal of favourite music dashboard app",
         "text": "A music app that allows users to effortlessly look up lyrics"
     },
@@ -48,7 +48,25 @@
         "id": 6,
         "title": "Favourite Music Dashboard",
         "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
-        "image": "../images/profile-picture.jpg",
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
+        "alt": "Lyrics modal of favourite music dashboard app",
+        "text": "A music app that allows users to effortlessly look up lyrics"
+    },
+
+    {
+        "id": 7,
+        "title": "Favourite Music Dashboard",
+        "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
+        "alt": "Lyrics modal of favourite music dashboard app",
+        "text": "A music app that allows users to effortlessly look up lyrics"
+    },
+
+    {
+        "id": 8,
+        "title": "Favourite Music Dashboard",
+        "link": "https://cedekpoole.github.io/favourite-music-dashboard/",
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/profile-picture.jpg?raw=true",
         "alt": "Lyrics modal of favourite music dashboard app",
         "text": "A music app that allows users to effortlessly look up lyrics"
     }
