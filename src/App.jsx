@@ -1,17 +1,16 @@
-
-import './App.css'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
-import Home from './pages/Home'
-import About from './pages/About'
-import Projects from './pages/Projects'
-import Contact from './pages/Contact'
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <div>
-      <Header/>
+      <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -21,7 +20,7 @@ function App() {
       </Routes>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
