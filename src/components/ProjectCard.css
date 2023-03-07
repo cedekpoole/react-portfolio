@@ -1,28 +1,43 @@
-a {
-  color: var(--light-color) !important;
-  text-decoration: none !important;
-}
-
-a:hover {
-  color: var(--brand-color) !important;
-}
 
 .proj-img {
   object-fit: cover;
-  height: 200px;
+  height: 240px !important;
 }
 
 .text-small {
   font-size: 0.8rem;
 }
 
-.project-link {
-  box-shadow: 0 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.1);
+.project-card {
+  box-shadow: 0 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.5);
   border: 2px solid var(--dark-color) !important;
   background-color: var(--dark-color) !important;
 }
 
-.project-link:hover {
-  opacity: 0.9;
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.button-style {
+  color: var(--light-color) !important;
+}
+
+.button2 {
+  float: right !important;
+  background-color: var(--dark-color) !important;
+  border: 1px solid white !important;
+}
+
+.button2:hover {
   transform: scale(1.03);
+  background-color: var(--light-color) !important;
+}
+
+.icon {
+  font-size: 20px !important;
+  color: var(--light-color);
+}
+
+.button2:hover .icon {
+  color: var(--dark-color) !important;
 }
