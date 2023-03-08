@@ -13,7 +13,7 @@ const Projects = () => {
         <Row>
           <Col xs={12}>
             <div className="section-header mb-4 position-relative mt-3">
-              <i className="fa-regular fa-folder-open"></i>
+              <i className="fa-regular fa-folder-open rotate-scale-up-ver"></i>
               <br />
               Previous <span className="color-change">Projects</span>.
             </div>
