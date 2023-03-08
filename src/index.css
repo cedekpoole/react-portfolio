@@ -11,7 +11,7 @@
 
 #root {
     padding: 55px 0 55px 0;
-    background-color: var(--light-color);
+    background-color: var(--dark-color);
     min-height: 100vh; 
     color: var(--light-color);
 }
