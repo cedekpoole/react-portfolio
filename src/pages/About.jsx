@@ -1,12 +1,21 @@
-import Header from '../components/Header'
+import './About.css'
+import {Container, Row, Col} from 'react-bootstrap'
 
 const About = () => {
     return (
-    <div>
-    <Header />
-    <h1>Weeeee</h1>
-    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione eveniet dolorum fugiat expedita totam in sequi, sapiente minus iste neque doloribus atque enim non quibusdam quod, soluta culpa deleniti quasi?</h1>
-    </div>
+        <div>
+            <div className="bg-lightning"></div>
+                <Container fluid>
+                    <Row>
+                        <Col>
+                        <h1 className="section-header mt-4 mb-3">
+                            <i className="fa-solid fa-address-card"></i><br />About Me
+                        </h1>
+                        </Col>
+                    </Row>
+                </Container>
+
+        </div>
     )
 
 }
