@@ -1,14 +1,115 @@
-import Header from '../components/Header'
+import "./Contact.css";
+import {
+  Container,
+  Col,
+  Row,
+  Form,
+  FloatingLabel,
+  FormControl,
+  Button,
+} from "react-bootstrap";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-    return (
-    <div>
-        <Header />
-        <h1>Howdy Partners</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatem delectus dolorem, fugiat illum autem animi consequatur quisquam asperiores quod adipisci esse voluptates sequi perspiciatis aperiam at aut voluptate voluptatum.</h1>
-    </div>
-    )
+  const form = useRef();
 
-}
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(
+      "service_q068uop",
+      "template_usdycvh",
+      form.current,
+      "XcmaoEwN6jsOPR8Uf"
+    )
+    .then(
+        () => {
+            alert("Message has been sent!")
+            window.location.reload(false)
+        },
+        () => {
+            alert("Message failed, please try again :)")
+        }
+    )
+  };
+
+
+  return (
+    <div className="bg-red">
+      <div className="bg-shape"></div>
+      <Container className="contact-page pt-2 position-relative">
+        <Row>
+          <Col lg={7} className="mt-lg-5">
+            <h1>
+              <i className="fa-solid fa-envelope rotate-diagonal-tl"></i>
+              <br />
+              Contact Me
+            </h1>
+            <p>
+              I am interested in both full-time and freelance opportunities. If
+              you would like to inquire, please feel free to leave a message by
+              filling in the form below! Anyone interested in collaborating on
+              large projects are also welcome to message :)
+            </p>
+            <div className="contact-form">
+              <Form onSubmit={sendEmail} ref={form}>
+                <Row className="g-2 text-dark mb-2">
+                  <Col md>
+                    <FloatingLabel controlId="floatingName" label="Name">
+                      <FormControl
+                        type="text"
+                        name="name"
+                        placeholder="Name"
+                        required
+                      />
+                    </FloatingLabel>
+                  </Col>
+                  <Col md>
+                    <FloatingLabel controlId="floatingEmail" label="Email">
+                      <FormControl
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                      />
+                    </FloatingLabel>
+                  </Col>
+                </Row>
+                <Row className="text-dark">
+                  <Col xs={12} className="mb-2">
+                    <FloatingLabel controlId="floatingSubject" label="Subject">
+                      <FormControl
+                        type="text"
+                        name="subject"
+                        placeholder="Subject"
+                        required
+                      />
+                    </FloatingLabel>
+                  </Col>
+                  <Col xs={12} className="mb-2">
+                    <FloatingLabel controlId="floatingTextarea" label="Message">
+                      <Form.Control
+                        as="textarea"
+                        name="message"
+                        placeholder="Message"
+                        style={{ height: "100px" }}
+                        required
+                      />
+                    </FloatingLabel>
+                  </Col>
+                  <Col xs={12}>
+                    <Button className="float-md-end" type="submit">
+                      Submit!
+                    </Button>
+                  </Col>
+                </Row>
+              </Form>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+};
 
 export default Contact;
