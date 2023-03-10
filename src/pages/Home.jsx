@@ -1,33 +1,27 @@
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import { Row, Col, Container, Button } from "react-bootstrap"
 import './Home.css'
-import Me from '../images/profile-picture.jpg' 
+import image from '../images/home.png'
 
 const Home = () => {
     return (
     <div>
-        <div className="background"></div>
         <Container fluid>
-            <Row className="mt-5 position-relative">
-                <Col xs={12} md={6} className="mt-4 ms-2">
-                    <div>
-                        <h1 className="mb-4 ms-lg-2">Welcome to my <span className="color-change">portfolio</span>.</h1>
-                        <h4 className="mb-2 ms-lg-4"> My name is <span className="color-change">CAMERON EDEK POOLE</span>...</h4>
-                        <p className="ms-lg-5">An aspiring Full-Stack Developer :)</p>
-                    </div>
-                    {/* <div className="ms-4 eyes">
-                        <div className="circle">
-                        <div className="circle1"></div>
-                        </div>
-                        <div className="circle circle-right">
-                        <div className="circle1"></div>
-                        </div>
-                    </div> */}
+            <Row>
+                <Col lg className="mt-4">
+                    <h1 className="mb-4 ms-lg-2">Welcome to my <span className="color-change">portfolio</span>.</h1>
+                    <Row>
+                        <Col md>
+                        <h5>My name is <span className="color-change">CAMERON EDEK POOLE</span>, an aspiring full-stack developer:)</h5>
+                        </Col>
+                        <Col md>
+                    <Button className="mb-4 cv">Download CV</Button>
+                        </Col>
+                    </Row>
                 </Col>
-                <Col xs={12} md={5} className="ms-1">
-                    {/* <img src={Me} alt="Me, driving a boat on a lake" className="portfolio-image"/> */}
-                    {/* <i className="fa-brands fa-git-alt floating"></i> */}
+                <Col lg className="position-relative">
+                    <div className="img-background"></div>
+                    <img src={image} alt="Me, wearing a hat and a coat" className="portfolio-image"/>
+                   
                 </Col>
             </Row>
         </Container>
