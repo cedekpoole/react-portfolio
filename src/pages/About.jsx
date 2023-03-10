@@ -35,7 +35,7 @@ const About = () => {
             <Card.Body className="border">
                 <h4 className="text-center mb-3 mt-2">Technologies and Skills</h4>
                 <ul>
-                    <li>HTML5. CSS3 and Javascript (ES5 & 6) fundamentals</li>
+                    <li>HTML5, CSS3 and Javascript (ES5 & 6) fundamentals</li>
                     <li>UX Design; experience with CSS frameworks (e.g. Bootstrap v5)</li>
                     <li>Version control via Git and Github</li>
                     <li>DOM manipulation and transversal using vanilla JS and jQuery</li>
