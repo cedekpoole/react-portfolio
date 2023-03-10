@@ -10,7 +10,16 @@
    right: 0;
 }
 
-.right {
-    float: right;
-    margin: 1rem;
+.links {
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+.links a {
+    color: var(--light-color);
+}
+
+.links a:hover {
+    color: var(--brand-color);
+    transform: scale(1.15)
 }
