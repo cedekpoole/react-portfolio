@@ -1,4 +1,5 @@
 import "./Contact.css";
+// import bootstrap components from react-bootstrap
 import {
   Container,
   Col,
@@ -8,32 +9,36 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
+
+// import useRef and emailjs for the functional contact form
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  // Followed instructions on emailjs website (https://www.emailjs.com/docs/)
+  // Allow the user to send an email to my email account
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm(
-      "service_q068uop",
-      "template_usdycvh",
-      form.current,
-      "XcmaoEwN6jsOPR8Uf"
-    )
-    .then(
+    emailjs
+      .sendForm(
+        "service_q068uop",
+        "template_usdycvh",
+        form.current,
+        "XcmaoEwN6jsOPR8Uf"
+      )
+      .then(
         () => {
-            alert("Message has been sent!")
-            window.location.reload(false)
+          alert("Message has been sent!");
+          window.location.reload(false);
         },
         () => {
-            alert("Message failed, please try again :)")
+          alert("Message failed, please try again :)");
         }
-    )
+      );
   };
-
-
+  // Return the 'contact me' component
   return (
     <div className="bg-red">
       <div className="bg-shape"></div>
@@ -54,7 +59,7 @@ const Contact = () => {
             <div className="contact-form">
               <Form onSubmit={sendEmail} ref={form}>
                 <Row className="g-2 text-dark mb-2">
-                  <Col md>
+                  <Col>
                     <FloatingLabel controlId="floatingName" label="Name">
                       <FormControl
                         type="text"
@@ -64,7 +69,7 @@ const Contact = () => {
                       />
                     </FloatingLabel>
                   </Col>
-                  <Col md>
+                  <Col>
                     <FloatingLabel controlId="floatingEmail" label="Email">
                       <FormControl
                         type="email"
@@ -98,7 +103,10 @@ const Contact = () => {
                     </FloatingLabel>
                   </Col>
                   <Col xs={12}>
-                    <Button className="float-md-end" type="submit">
+                    <Button
+                      className="float-md-end margin-unique"
+                      type="submit"
+                    >
                       Submit!
                     </Button>
                   </Col>
