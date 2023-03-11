@@ -18,6 +18,10 @@
   border-radius: 50%;
   transform: translateY(40px);
 }
+/* Use rgba of dark color variable to place opacity on card background */
+.card-bg {
+  background-color: rgba(var(--rgba-dark), 0.6);
+}
 
 /* Animation idea came from the 'Divenector' Youtube Channel: https://www.youtube.com/watch?v=MYXjjRI7j9c&ab_channel=Divinector */
 .icons {
