@@ -11,10 +11,10 @@ const Home = () => {
                     <h1 className="mb-4 ms-lg-2 display-1">Welcome to my <span className="color-change">portfolio</span>.</h1>
                     <Row>
                         <Col xs={12} lg={8}>
-                        <h4 className="mb-3 lh-base">My name is <span className="color-change">CAMERON EDEK POOLE</span>, an aspiring full-stack developer:)</h4>
+                        <h4 className="mb-3 lh-base ms-lg-2">My name is <span className="color-change">CAMERON EDEK POOLE</span>, an aspiring full-stack developer:)</h4>
                         </Col>
                         <Col xs={12} lg={4} className="text-xl-center">
-                    <Button className="mb-2">Download CV</Button>
+                    <Button className="mb-2 btn-xl text-white border cv">Download CV</Button>
                         </Col>
                     </Row>
                 </Col>
