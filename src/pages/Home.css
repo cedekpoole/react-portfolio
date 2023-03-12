@@ -3,11 +3,9 @@
   height: 100%;
   object-fit: cover;
   position: relative;
-  
 }
 
 .img-background {
-  /* clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 38% 100%, 0% 50%, 38% 0); */
   clip-path: polygon(0 58%, 76% 0, 100% 69%, 100% 100%, 0% 100%);
   background-color: var(--brand-color);
   width: 100%;
@@ -17,16 +15,10 @@
   position: absolute;
 }
 
-@media screen and (min-width: 1200px) {
-  .img-background {
-    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 38% 100%, 0% 50%, 38% 0);
-  }
-}
-
 .cv {
-    background-color: rgba(var(--rgba-dark), 0.3) !important;
-    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
-    transition: 0.5s !important;
+  background-color: rgba(var(--rgba-dark), 0.3) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+  transition: 0.5s !important;
 }
 
 .cv:hover {
@@ -34,4 +26,10 @@
   background-color: var(--light-color) !important;
   box-shadow: 0 0.5em 0.5em -0.4em var(--dark-color) !important;
   transform: translateY(-0.1em) !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .img-background {
+    clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 38% 100%, 0% 50%, 38% 0);
+  }
 }
