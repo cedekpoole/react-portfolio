@@ -1,3 +1,5 @@
+
+/* Add root color variables that can be used throughout the portfolio */
 :root {
     --brand-color: #c14953;
     --light-color: #faf9f6;
@@ -5,11 +7,12 @@
     --bg-color: #e8d6cb;
     --rgba-dark: 53, 59, 60;
 }
-
+/* Change default font to Space Mono */
 * {
     font-family: "Space Mono", sans-serif
 }
 
+/* Add padding to stop header and footer from hiding text; add default bg colour */
 #root {
     padding: 55px 0 70px 0;
     background-color: var(--dark-color);

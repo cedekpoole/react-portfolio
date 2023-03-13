@@ -1,7 +1,11 @@
 import { Row, Col, Container, Button } from "react-bootstrap"
 import './Home.css'
-import image from '../images/home.png'
 
+// Import image and pdf file 
+import image from '../../images/home.png'
+import pdf from '../../cv.pdf'
+
+// Create component for Home page
 const Home = () => {
     return (
     <div>
@@ -11,10 +15,11 @@ const Home = () => {
                     <h1 className="mb-4 ms-lg-2 display-1">Welcome to my <span className="color-change">portfolio</span>.</h1>
                     <Row>
                         <Col xs={12} lg={8}>
-                        <h4 className="mb-3 lh-base ms-lg-2">My name is <span className="color-change">CAMERON EDEK POOLE</span>, an aspiring full-stack developer:)</h4>
+                        <h4 className="mb-3 lh-base ms-lg-2">My name is <span className="color-change">CAMERON EDEK POOLE</span>, a front-end web developer:)</h4>
                         </Col>
                         <Col xs={12} lg={4} className="text-xl-center">
-                    <Button className="mb-2 btn-xl text-white border cv">Download CV</Button>
+                            {/* When user presses 'Download CV' button, download pdf version onto their local machine */}
+                    <a href={pdf} download><Button className="mb-2 btn-xl text-white border cv">Download CV</Button></a>
                         </Col>
                     </Row>
                 </Col>

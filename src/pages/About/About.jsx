@@ -4,6 +4,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 const About = () => {
   return (
     <div>
+      {/* Add additional colors to the background */}
       <div className="bg-lightning"></div>
       <Container fluid>
         <Row>
@@ -20,6 +21,7 @@ const About = () => {
           <Col xs={10} lg={3} className="mb-3 ms-5 p-0 me-sm-5 ">
             <Card.Body className="border position-relative card-bg">
               <Card.Text className="p-3">
+                {/* Include a brief intro in the About me page */}
                 I am a recent Philosophy graduate who has an affinity for
                 problem solving. While I very much enjoy analysing continental
                 philosophy, my other passion lies within the world of
@@ -33,6 +35,7 @@ const About = () => {
           </Col>
           <Col xs={12} lg={7} className="position-relative">
             <Card.Body className="border card-bg">
+              {/* Add technologies, skills and education section to About page */}
               <h4 className="text-center mb-3 mt-2">Technologies and Skills</h4>
               <ul>
                 <li>HTML5, CSS3 and Javascript (ES5 & 6) fundamentals</li>
@@ -41,18 +44,17 @@ const About = () => {
                 </li>
                 <li>Version control via Git and Github</li>
                 <li>
-                  DOM manipulation and transversal using vanilla JS and jQuery
+                  Experience with JS libraries (e.g. React.js and jQuery)
                 </li>
                 <li>
-                  Ability to send RESTful-compliant network requests to retrieve
-                  server data
+                  Ability to retrieve server data via RESTful-compliant AJAX requests
                 </li>
                 <li>
                   Knowledge of object-oriented programming foundations and
                   functional programming paradigms
                 </li>
                 <li>
-                  Can build modern web applications using node and React.js
+                  Node.js and node package manager (npm)
                 </li>
                 <li>Brief experience with testing (TDD and BDD)</li>
                 <li>Deployment using Netlify</li>
@@ -68,7 +70,8 @@ const About = () => {
                 </li>
               </ul>
             </Card.Body>
-            <div className="d-flex justify-content-evenly mt-5 icon-box">
+            {/* Add icons that lie across the bottom of the page */}
+            <div className="d-flex justify-content-evenly mt-4 icon-box">
               <i className="fa-brands fa-html5 text-white icons"></i>
               <i className="fa-brands fa-css3-alt text-white icons"></i>
               <i className="fa-brands fa-square-js text-white icons"></i>

@@ -1,11 +1,17 @@
 import "./App.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+
+// Import header and footer component (so they can be displayed on each page)
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+
+// Import routes that can link to each page
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+
+// Import each individual page
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Projects from "./pages/Projects/Projects";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (

@@ -1,3 +1,4 @@
+/* Allow image to cover over whole column */
 .portfolio-image {
   width: 100%;
   height: 100%;
@@ -5,6 +6,7 @@
   position: relative;
 }
 
+/* Add a coloured background to the image to fill empty space */
 .img-background {
   clip-path: polygon(0 58%, 76% 0, 100% 69%, 100% 100%, 0% 100%);
   background-color: var(--brand-color);
@@ -15,6 +17,7 @@
   position: absolute;
 }
 
+/* Place styling onto the cv button */
 .cv {
   background-color: rgba(var(--rgba-dark), 0.3) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
@@ -28,6 +31,7 @@
   transform: translateY(-0.1em) !important;
 }
 
+/* change image background clip path for when screen width reaches above 1200px */
 @media screen and (min-width: 1200px) {
   .img-background {
     clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 38% 100%, 0% 50%, 38% 0);

@@ -1,7 +1,10 @@
 import './Header.css'
+
+// Import bootstrap components to use in navbar
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Outlet} from 'react-router-dom'
+
+// Import link container that allows bootstrap and react router to work together
 import { LinkContainer } from 'react-router-bootstrap'
 
 function Header () {
@@ -25,7 +28,6 @@ function Header () {
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>
-          <Outlet />
         </Navbar>
     )
 }

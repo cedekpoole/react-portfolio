@@ -1,4 +1,4 @@
-
+/* Add fixed size for project card image */
 .proj-img {
   object-fit: cover;
   height: 240px !important;
@@ -7,7 +7,7 @@
 .text-small {
   font-size: 0.8rem;
 }
-
+/* Style the individual project cards */
 .project-card {
   box-shadow: 0 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.5);
   border: 2px solid var(--dark-color) !important;
@@ -18,17 +18,15 @@
   transform: scale(1.02);
 }
 
+/* Change color and styling of github button; add hover effect */
 .button-style {
   color: var(--light-color) !important;
-}
-
-.button2 {
   float: right !important;
   background-color: var(--dark-color) !important;
   border: 1px solid white !important;
 }
 
-.button2:hover {
+.button-style:hover {
   transform: scale(1.03);
   background-color: var(--light-color) !important;
 }
@@ -38,6 +36,6 @@
   color: var(--light-color);
 }
 
-.button2:hover .icon {
+.button-style:hover .icon {
   color: var(--dark-color) !important;
 }

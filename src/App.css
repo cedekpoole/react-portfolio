@@ -1,38 +1,11 @@
+/* add class that changes font color */
 .color-change {
   font-weight: 800;
   color: var(--brand-color);
 }
 
+/* Add section header style that can be used across pages */
 .section-header {
   font-size: 1.7rem;
   text-align: center;
-}
-
-.rotate-diagonal-tl {
-	animation: rotate-hor-center 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-}
-
-@keyframes rotate-hor-center {
-  0% {
-    transform: rotateX(0);
-  }
-  100% {
-    transform: rotateX(-360deg);
-  }
-}
-
-.rotate-scale-up-ver {
-	animation: rotate-scale-up-ver 0.65s linear both;
-}
-
-@keyframes rotate-scale-up-ver {
-  0% {
-    transform: scale(1) rotateY(0);
-  }
-  50% {
-    transform: scale(2) rotateY(180deg);
-  }
-  100% {
-    transform: scale(1) rotateY(360deg);
-  }
 }

@@ -1,15 +1,11 @@
+/* Update footer size and add min height */
 .footer {
     min-height: 50px;
     background: var(--dark-color);
     position: relative;
 }
 
-.footer span {
-   bottom: 0;
-   left: 0;
-   right: 0;
-}
-
+/* Place styling on Github, LinkedIn and Discord icons */
 .links {
     width: 30%;
     font-size: 1.5rem;

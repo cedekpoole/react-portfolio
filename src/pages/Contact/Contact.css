@@ -1,0 +1,35 @@
+
+/* Add css to create unique background on contact page */
+.bg-shape {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 60% 54%, 79% 24%, 0 12%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--dark-color);
+    right: 0;
+    top: 0;
+}
+
+.bg-red {
+    background-color: var(--brand-color);
+    height: 85vh;
+}
+
+/* Add large margin bottom for under the submit button (stops background bug when viewing page from mobile) */
+.margin-unique {
+    margin-bottom: 4rem;
+}
+
+/* Animation found on animista: https://animista.net/play/basic */
+.rotating {
+	animation: rotate 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(-360deg);
+  }
+}

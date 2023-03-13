@@ -1,6 +1,6 @@
 import './Footer.css'
 
-
+// Create Footer component that will lie at the bottom of every page 
 const Footer = () => {
     return (
         <footer className="footer fixed-bottom d-flex justify-content-between">

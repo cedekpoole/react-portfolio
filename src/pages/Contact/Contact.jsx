@@ -46,7 +46,7 @@ const Contact = () => {
         <Row>
           <Col lg={7} className="mt-lg-5">
             <h1>
-              <i className="fa-solid fa-envelope rotate-diagonal-tl"></i>
+              <i className="fa-solid fa-envelope rotating"></i>
               <br />
               Contact Me
             </h1>

@@ -1,0 +1,27 @@
+/* add red clip path to background of projects page */
+.red-bg-path {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 92% 25%, 83% 13%, 56% 0);
+  background-color: var(--brand-color);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Animation found on animista: https://animista.net/play/basic */
+.scaling {
+	animation: scale 0.65s linear both;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1) rotateY(0);
+  }
+  50% {
+    transform: scale(2) rotateY(180deg);
+  }
+  100% {
+    transform: scale(1) rotateY(360deg);
+  }
+}
