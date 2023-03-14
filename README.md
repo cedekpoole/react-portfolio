@@ -1,7 +1,7 @@
 # React.js Portfolio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Linked to depoloyed site: https://cameron-edek-poole.netlify.app 
+Link to deployed site: https://cameron-edek-poole.netlify.app 
 
 ## Description
 
@@ -19,21 +19,29 @@ N/A
 
 ## Usage
 
-When you first open the [deployed application](https://cameron-edek-poole.netlify.app), you are welcomed by the Home page.
+When you first open the [deployed application](https://cameron-edek-poole.netlify.app), the app will automatically direct you to the homepage. From here, there is a small introduction and a clickable button which allows the user to download my CV. Stored within the footer, links to GitHub, LinkedIn and Discord can be found. These links are available to the user on every page. 
 
 ![Home Page](./src/images/home-page.png)
 
+Within the navigation bar, users can choose between 4 different pages: Home (the current page), Projects, About and Contact. On the projects page, there are 6 examples of my previous work. On each project card, the user has the option to check out the deployed app (by pressing the 'Online' button) or the project's GitHub repo. 
+
 ![Project Page](./src/images/projects-page.png)
 
+On the 'About' page, users are given a brief introduction and a list of technologies + skills that I possess. 
+
 ![About Page](./src/images/about-page.png)
+
+On the 'Contact' page, users are given the ability to send an email directly to me by filling in the form. Once they fill in all the required fields and press submit, the unique message will be sent to my gmail account (via the node package 'emailjs').
 
 ![Contact Page](./src/images/contact-page.png)
 
 To test the responsiveness of the site, open up Device mode on Chrome Dev Tools (Option + Command + J on MacOS, Shift + Control + J on Windows/Linux to open Tools, then Command + Shift + M on MacOS, or Control + Shift + M on Windows/Linux to open Device Mode). From here, you can watch how the page responds when you change the height and width of the screen. Alternatively, you can also check this by opening the portfolio link (found above) on a mobile device. You will notice that after a certain width, the navbar collapses and provides the user with a hamburger menu instead.
 
-## Roadmap
 
-This repo will be added to as my skills progress. The final aim for my portfolio page is to display a number of fully functioning projects and to make it more visually appealing. Any suggestions on how to improve the look and functionality of the page are welcome :).
+## License
+
+Please refer to the LICENSE in the repo.
+
 
 ## Credits
 
@@ -41,12 +49,11 @@ This repo will be added to as my skills progress. The final aim for my portfolio
 - The technologies animation on the contact page was an idea taken from [Divenector](https://www.youtube.com/watch?v=MYXjjRI7j9c&ab_channel=Divinector) (Youtube channel).
 - The document's icon within the tab came from [ICONS8](https://icons8.com/)
 
-## License
-
-Please refer to the LICENSE in the repo.
-
-
 ---
+
+## Roadmap
+
+This repo will be added to as my skills progress. The final aim for my portfolio page is to display a number of fully functioning projects and to make it more visually appealing. Any suggestions on how to improve the look and functionality of the page are welcome :).
 
 ## Questions
 
