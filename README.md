@@ -27,7 +27,7 @@ Within the navigation bar, users can choose between 4 different pages: Home (the
 
 ![Project Page](./src/images/projects-page.png)
 
-On the 'About' page, users are given a brief introduction and a list of technologies + skills that I possess. 
+Information about me lies within the 'About' page. Here, users are welcomed to a brief personal introduction and info pertaining to technologies, skills and education. 
 
 ![About Page](./src/images/about-page.png)
 
@@ -60,4 +60,4 @@ This repo will be added to as my skills progress. The final aim for my portfolio
 If you have any questions about the repo, open an issue or contact me directly at cameron-edek-poole@gmail.com. 
 
 You can find more of my work by clicking on my GitHub username: [cedekpoole](https://github.com/cedekpoole/).
-Feel free to also add me on [LinkedIn](https://www.linkedin.com/in/cam-edek-poole/). :)
+Feel free to also add me on [LinkedIn](https://www.linkedin.com/in/cam-edek-poole/)!
