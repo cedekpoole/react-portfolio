@@ -5,6 +5,8 @@ Link to deployed site: https://cameron-edek-poole.netlify.app
 
 ## Description
 
+This repo displays my most up-to-date portfolio website. Using the very popular JavaScript library [React.js](https://reactjs.org/), in addition to [npm](https://www.npmjs.com/) - a package manager for JS - it was possible to create a sophisticated and modern web application. On top of using these current, industry-standard technologies, it is also important to mention that I undertook the mobile-first approach to responsive design when creating this portfolio. For convenience, the CSS framework 'Bootstrap' (via the npm package '[React-Bootstrap](https://react-bootstrap.github.io/)') was used, aiding in the structure and styling of the site. There is also additional functionality on the Contact page, made possible through the JS package 'emailjs'. '[Emailjs](https://www.emailjs.com/)' allows users to send messages directly to my email address without having to write any server code.
+
 ### Technologies and Skills 
 - React.js
 - Node.js amd npm (emailjs, react-bootstrap and react-router-dom packages)
@@ -49,12 +51,11 @@ Please refer to the LICENSE in the repo.
 - The technologies animation on the contact page was an idea taken from [Divenector](https://www.youtube.com/watch?v=MYXjjRI7j9c&ab_channel=Divinector) (Youtube channel).
 - The document's icon within the tab came from [ICONS8](https://icons8.com/)
 
----
-
 ## Roadmap
 
 This repo will be added to as my skills progress. The final aim for my portfolio page is to display a number of fully functioning projects and to make it more visually appealing. Any suggestions on how to improve the look and functionality of the page are welcome :).
 
+--- 
 ## Questions
 
 If you have any questions about the repo, open an issue or contact me directly at cameron-edek-poole@gmail.com. 
