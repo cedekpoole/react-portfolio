@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "title": "Productive Programming",
+        "link": ["https://cedekpoole.github.io/random-password-generator/", "https://github.com/cedekpoole/random-password-generator"],
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/password-gen.jpg?raw=true",
+        "alt": "Productive Programming application",
+        "text": "Productivity dashboard with easy access to weather updates, programming news, a timer for effective time management and the ability to add and save notes and todos (React.js)"
+    },
+
+    {
+        "id": 2,
         "title": "Favourite Music Dashboard",
         "link": ["https://cedekpoole.github.io/favourite-music-dashboard/", "https://github.com/cedekpoole/favourite-music-dashboard"],
         "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/lyric-screenshot.png?raw=true",
@@ -9,7 +18,7 @@
     },
 
     {
-        "id": 2,
+        "id": 3,
         "title": "Weather Forecast App",
         "link": ["https://cedekpoole.github.io/weather-dashboard/", "https://github.com/cedekpoole/weather-dashboard"],
         "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/weather-app.png?raw=true",
@@ -18,7 +27,7 @@
     },
 
     {
-        "id": 3,
+        "id": 4,
         "title": "README.md Generator",
         "link": ["https://www.youtube.com/watch?v=AzjbbK4kNIY&ab_channel=Camikazoo", "https://github.com/cedekpoole/readme-generator"],
         "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/readme-gen.jpg?raw=true",
@@ -27,7 +36,7 @@
     },
 
     {
-        "id": 4,
+        "id": 5,
         "title": "Day Planner App",
         "link": ["https://cedekpoole.github.io/daily-planner-app/", "https://github.com/cedekpoole/daily-planner-app"],
         "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/day-planner.png?raw=true",
@@ -36,21 +45,12 @@
     },
 
     {
-        "id": 5,
+        "id": 6,
         "title": "Password Generator",
         "link": ["https://cedekpoole.github.io/random-password-generator/", "https://github.com/cedekpoole/random-password-generator"],
         "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/password-gen.jpg?raw=true",
         "alt": "A random password generator app",
         "text": "Generate a random password (HTML, CSS and Vanilla JS)"
-    },
-
-    {
-        "id": 6,
-        "title": "Project Cat",
-        "link": ["https://en.wikipedia.org/wiki/Cat", "https://en.wikipedia.org/wiki/Cat"  ],
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/cat.jpg?raw=true",
-        "alt": "Picture of a cat with a toilet roll on their head",
-        "text": "This is also a very important project"
     }
 
 ]
