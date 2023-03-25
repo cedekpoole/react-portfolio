@@ -2,10 +2,10 @@
     {
         "id": 1,
         "title": "Productive Programming",
-        "link": ["https://cedekpoole.github.io/random-password-generator/", "https://github.com/cedekpoole/random-password-generator"],
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/password-gen.jpg?raw=true",
+        "link": ["https://productive-programming.netlify.app/", "https://github.com/cedekpoole/productive-programming"],
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/productive-app.png?raw=true",
         "alt": "Productive Programming application",
-        "text": "Productivity dashboard with easy access to weather updates, programming news, a timer for effective time management and the ability to add and save notes and todos (React.js)"
+        "text": "A productivity dashboard for developers and students (React.js, AJAX, npm)"
     },
 
     {
@@ -14,7 +14,7 @@
         "link": ["https://cedekpoole.github.io/favourite-music-dashboard/", "https://github.com/cedekpoole/favourite-music-dashboard"],
         "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/lyric-screenshot.png?raw=true",
         "alt": "Lyrics modal of favourite music dashboard app",
-        "text": "A music app that allows users to effortlessly look up lyrics"
+        "text": "A music app that allows users to effortlessly look up lyrics (jQuery, Bootstrap, AJAX)"
     },
 
     {
@@ -23,7 +23,7 @@
         "link": ["https://cedekpoole.github.io/weather-dashboard/", "https://github.com/cedekpoole/weather-dashboard"],
         "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/weather-app.png?raw=true",
         "alt": "A weather dashboard",
-        "text": "An app that displays current and forecasted weather dynamically via data from a server-side API"
+        "text": "An app that displays current and forecasted weather dynamically via data from a server-side API (jQuery, Bootstrap, AJAX)"
     },
 
     {
@@ -37,20 +37,20 @@
 
     {
         "id": 5,
-        "title": "Day Planner App",
-        "link": ["https://cedekpoole.github.io/daily-planner-app/", "https://github.com/cedekpoole/daily-planner-app"],
-        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/day-planner.png?raw=true",
-        "alt": "A daily planner application",
-        "text": "Work day schedular created using jQuery and moment.js"
-    },
-
-    {
-        "id": 6,
         "title": "Password Generator",
         "link": ["https://cedekpoole.github.io/random-password-generator/", "https://github.com/cedekpoole/random-password-generator"],
         "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/password-gen.jpg?raw=true",
         "alt": "A random password generator app",
         "text": "Generate a random password (HTML, CSS and Vanilla JS)"
+    },
+
+    {
+        "id": 6,
+        "title": "Project Cat",
+        "link": ["htthttps://en.wikipedia.org/wiki/Cat", "https://en.wikipedia.org/wiki/Cat"],
+        "image": "https://github.com/cedekpoole/react-portfolio/blob/main/src/images/cat.jpg?raw=true",
+        "alt": "A cat with toilet roll on their head",
+        "text": "This is also a very important project"
     }
 
 ]
