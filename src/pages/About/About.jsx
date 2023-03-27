@@ -22,14 +22,16 @@ const About = () => {
             <Card.Body className="border position-relative card-bg">
               <Card.Text className="p-3">
                 {/* Include a brief intro in the About me page */}
-                I am a recent Philosophy graduate who has an affinity for
-                problem solving. While I very much enjoy analysing continental
-                philosophy, my other passion lies within the world of
-                programming and web development. <br />
-                <br /> I love a challenge, which is the reason why I decided to
-                develop my skills in programming. I have almost completed a 16
-                week Front-End Development bootcamp (provided by Trilogy
-                Education) which has spurred my interest even further.
+                I am a front-end developer and recent Philosophy graduate who
+                has an affinity for problem solving; a quick and adaptable
+                learner for all things tech-related, with an ability to work
+                independently and as part of a team.
+                <br />
+                <br />
+                Currently learning React.js but also interested in learning more
+                about back-end development. Achieved 100% on a 16 week intensive
+                front-end web development certification provided by Trilogy
+                Education.
               </Card.Text>
             </Card.Body>
           </Col>
@@ -43,26 +45,23 @@ const About = () => {
                   UX Design; experience with CSS frameworks (e.g. Bootstrap v5)
                 </li>
                 <li>Version control via Git and Github</li>
+                <li>Experience with JS libraries (e.g. React.js and jQuery)</li>
                 <li>
-                  Experience with JS libraries (e.g. React.js and jQuery)
-                </li>
-                <li>
-                  Ability to retrieve server data via RESTful-compliant AJAX requests
+                  Ability to retrieve server data via RESTful-compliant AJAX
+                  requests
                 </li>
                 <li>
                   Knowledge of object-oriented programming foundations and
                   functional programming paradigms
                 </li>
-                <li>
-                  Node.js and node package manager (npm)
-                </li>
+                <li>Node.js and node package manager (npm)</li>
                 <li>Brief experience with testing (TDD and BDD)</li>
                 <li>Deployment using Netlify</li>
               </ul>
               <h4 className="text-center mb-3">Education</h4>
               <ul>
                 <li>
-                  16 Week front-end development bootcamp provided by EdX
+                  16 Week front-end development certification provided by EdX
                   (Trilogy Education)
                 </li>
                 <li>
